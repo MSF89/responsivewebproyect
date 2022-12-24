@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponsiveWebDesign</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.css">
+</head>
+<body>
+    <!-- navegacion -->
+	<nav class="container-fluid | navbar navbar-dark navbar-expand-md | bg-dark bg-gradient | sticky-top">
+		<a href="#" class="navbar-brand | bi-bootstrap"> Bootstrap</a>
+		<button class="navbar-toggler-icon | d-md-none btn | fs-2"
+			data-bs-toggle="collapse"
+			data-bs-target="#menu">
+		</button>
+		<ul id="menu" class="navbar-nav navbar-collapse collapse align-items-start">
+			<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+			<li class="nav-item"><a class="nav-link active" href="#">Acerca</a></li>
+			<li class="nav-item"><a class="nav-link" href="gallery.html">Galeria</a></li>
+			<li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+		</ul>
+	</nav>
+	<header id="header" class="d-grid justify-content-center align-content-center text-light bg-secondary p-3 vh-100">
+		<div id="header">
+			<h1 class="display-1 fw-bold text-uppercase">Bootstrap</h1>
+			<p class="h1">Responsive Web Design</p>
+		</div>
+
+	</header>
+	<main class="container row my-3 mx-auto">
+		<section class="row">
+			<article class="card col-lg px-0">
+				<h2 class="card-header h3">Fluid Design</h2>
+				<p class="card-body">
+					Modelo que utiliza porcentajes para definir el tamaño de los elementos de la pagina, uno de los problemas del mismo radica en que nuestro diseño pierde proporcion en pantallas pequeñas y grandes ya que se estira demasiado el contenido.
+					<br>
+					Una alternativa a este tipo de diseño es el <strong>Liquid Design</strong> que aplica atributos de maximos y minimos para evitar la compresion y estiramiento de los elementos. El problema radica en los espacios generados para la separacion de contenido.
+				</p>
+
+				<address class="card-footer">
+					Para mas informacion visitar <a href="https://alumni.education" target="_blank">Alumni</a> o enviar un correo a <a href="mailto:cristiandracedo@hotmail.com">cristiandracedo@hotmail.com</a>
+				</address>
+				
+			</article>
+			<article class="card col-lg my-4 my-lg-0 mx-lg-2 px-0" >
+				<h2 class="card-header h3">Adaptive Design</h2>
+				<p class="card-body">
+					Modelo que implementa el diseño individual de contenido para cada tamaño de pantalla, facilita la implementacion del diseño y es una alternativa para clientes con poco presupuesto. Se utilizan herramientas de redireccionamiento para que el cliente visite la version mas adecuada para su dispositivo.
+					<br>
+					Uno de los problemas principales de este tipo de contenido radica en la duplicidad del mismo y la repeticion de archivos dentro del sitio, ya que se usa uno distinto segun el tamaño de pantalla para que se diseñe.
+				</p>
+
+				<address class="card-footer">
+					Para mas informacion visitar <a href="https://alumni.education" target="_blank">Alumni</a> o enviar un correo a <a href="mailto:cristiandracedo@hotmail.com">cristiandracedo@hotmail.com</a>
+				</address>
+				
+			</article>
+			<article class="card col-lg px-0">
+				<h2 class="card-header h3">Responsive Design</h2>
+				<p class="card-body">
+					Modelo cuyos origenes radican en una publicacion realizada por <strong>Ethan Marcotte</strong> en el sitio <a href="">A List Apart</a> donde explica como se deberian implementar los <em>Media Quieries</em>, el diseño a partir de la vista en dispositivos moviles y el concepto conocido como <strong>One Web for All</strong> donde debemos utilizar una unica fuente de informacion (estructura).
+					<br>
+					Una evolucion de este tipo de diseño es la que se conoce como Content-first, ya que a diferencia del Mobile-first, plantea empezar a trabajar con el contenido final.
+				</p>
+
+				<address class="card-footer">
+					Para mas informacion visitar <a href="https://alumni.education" target="_blank">Alumni</a> o enviar un correo a <a href="mailto:cristiandracedo@hotmail.com">cristiandracedo@hotmail.com</a>
+				</address>
+				
+			</article>
+		</section>
+	</main>
+    <script src="scripts/js/bootstrap.bundle.js"></script>
+</body>
+</html>
